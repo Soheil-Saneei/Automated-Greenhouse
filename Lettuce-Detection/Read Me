@@ -1,1 +1,2 @@
-Lettuce Detection
+We have currently finished training CNN and U-Net archeticture to detect nutrient difficiencies of nitrogen, phosphorous, and potassium in lettuce.
+
