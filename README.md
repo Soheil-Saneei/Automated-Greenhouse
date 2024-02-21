@@ -1,1 +1,1 @@
-This repository contains many files that correspond to the software of a developing automated greenhouse. We have currently finished training CNN and U-Net archeticture to detect nutrient difficiencies of nitrogen, phosphorous, and potassium in lettuce.
+This repository contains many files that correspond to the software of a developing automated greenhouse.
