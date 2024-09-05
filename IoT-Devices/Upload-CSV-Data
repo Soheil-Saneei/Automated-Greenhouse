@@ -1,0 +1,16 @@
+import serial
+import csv
+
+# Open the serial port
+ser = serial.Serial('/dev/tty.usbmodem1202', 9600)  # Replace 'COM3' with the name of your serial port
+
+# Open the CSV file for writing
+with open('Temp_data.csv', 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    while True:
+        if ser.inWaiting() > 0:
+            myData = ser.readline()
+            writer.writerow([myData])
+            print(myData)
+
+# Read data from the serial port and write it to the CSV file
